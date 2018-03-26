@@ -16,13 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		557B1F301CC7BF110076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1F2C1CC7BF110076B9EE /* openssl-mac.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55D9C0821CC7B1C90076CBD9;
-			remoteInfo = openssl;
-		};
 		557B1F361CC7BF1B0076B9EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 557B1F321CC7BF1B0076B9EE /* app-mac.xcodeproj */;
@@ -93,13 +86,6 @@
 			remoteGlobalIDString = 3170A026177887B0004F5DDA;
 			remoteInfo = app;
 		};
-		557B1F8A1CC7BF730076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1F2C1CC7BF110076B9EE /* openssl-mac.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3170A026177887B0004F5DDA;
-			remoteInfo = openssl;
-		};
 		557B20301CC7C6D20076B9EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 557B1FCA1CC7C5C40076B9EE /* sdt-mac.xcodeproj */;
@@ -136,7 +122,6 @@
 		4BE038E51DE7ED1E0004CD84 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = DEVELOPER_DIR; };
 		4BE038E71DE7ED3A0004CD84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		4BE038E91DE7ED490004CD84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		557B1F2C1CC7BF110076B9EE /* openssl-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "openssl-mac.xcodeproj"; path = "openssl/openssl-mac.xcodeproj"; sourceTree = "<group>"; };
 		557B1F321CC7BF1B0076B9EE /* app-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "app-mac.xcodeproj"; path = "app/app-mac.xcodeproj"; sourceTree = "<group>"; };
 		557B1F381CC7BF210076B9EE /* baseevent-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "baseevent-mac.xcodeproj"; path = "baseevent/baseevent-mac.xcodeproj"; sourceTree = "<group>"; };
 		557B1F561CC7BF3E0076B9EE /* comm-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "comm-mac.xcodeproj"; path = "comm/comm-mac.xcodeproj"; sourceTree = "<group>"; };
@@ -171,7 +156,6 @@
 				557B1F561CC7BF3E0076B9EE /* comm-mac.xcodeproj */,
 				557B1F381CC7BF210076B9EE /* baseevent-mac.xcodeproj */,
 				557B1F321CC7BF1B0076B9EE /* app-mac.xcodeproj */,
-				557B1F2C1CC7BF110076B9EE /* openssl-mac.xcodeproj */,
 				4BE038DE1DE7ECA40004CD84 /* Frameworks */,
 				4BB7124F1DE811B100185734 /* libmars.a */,
 			);
@@ -188,14 +172,6 @@
 				4BE038DF1DE7ECA40004CD84 /* CoreWLAN.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		557B1F2D1CC7BF110076B9EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				557B1F311CC7BF110076B9EE /* libopenssl.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		557B1F331CC7BF1B0076B9EE /* Products */ = {
@@ -267,7 +243,6 @@
 				557B1F7B1CC7BF730076B9EE /* PBXTargetDependency */,
 				557B1F871CC7BF730076B9EE /* PBXTargetDependency */,
 				557B1F891CC7BF730076B9EE /* PBXTargetDependency */,
-				557B1F8B1CC7BF730076B9EE /* PBXTargetDependency */,
 			);
 			name = mars;
 			productName = PublicComponent;
@@ -311,10 +286,6 @@
 					ProjectRef = 557B1F5C1CC7BF490076B9EE /* log-mac.xcodeproj */;
 				},
 				{
-					ProductGroup = 557B1F2D1CC7BF110076B9EE /* Products */;
-					ProjectRef = 557B1F2C1CC7BF110076B9EE /* openssl-mac.xcodeproj */;
-				},
-				{
 					ProductGroup = 557B202D1CC7C6D20076B9EE /* Products */;
 					ProjectRef = 557B1FCA1CC7C5C40076B9EE /* sdt-mac.xcodeproj */;
 				},
@@ -331,13 +302,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		557B1F311CC7BF110076B9EE /* libopenssl.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libopenssl.a;
-			remoteRef = 557B1F301CC7BF110076B9EE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		557B1F371CC7BF1B0076B9EE /* libapp.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -433,11 +397,6 @@
 			isa = PBXTargetDependency;
 			name = app;
 			targetProxy = 557B1F881CC7BF730076B9EE /* PBXContainerItemProxy */;
-		};
-		557B1F8B1CC7BF730076B9EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = openssl;
-			targetProxy = 557B1F8A1CC7BF730076B9EE /* PBXContainerItemProxy */;
 		};
 		557B20331CC7C6DC0076B9EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
