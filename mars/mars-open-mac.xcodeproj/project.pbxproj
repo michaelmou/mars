@@ -16,20 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		557B1F361CC7BF1B0076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1F321CC7BF1B0076B9EE /* app-mac.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55D9C0821CC7B1C90076CBD9;
-			remoteInfo = app;
-		};
-		557B1F3C1CC7BF210076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1F381CC7BF210076B9EE /* baseevent-mac.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55D9C0821CC7B1C90076CBD9;
-			remoteInfo = baseevent;
-		};
 		557B1F5A1CC7BF3F0076B9EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 557B1F561CC7BF3E0076B9EE /* comm-mac.xcodeproj */;
@@ -44,20 +30,6 @@
 			remoteGlobalIDString = 55D9C0821CC7B1C90076CBD9;
 			remoteInfo = log;
 		};
-		557B1F721CC7BF5A0076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1F6E1CC7BF5A0076B9EE /* stn-mac.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55D9C0821CC7B1C90076CBD9;
-			remoteInfo = stn;
-		};
-		557B1F741CC7BF730076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1F6E1CC7BF5A0076B9EE /* stn-mac.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3170A026177887B0004F5DDA;
-			remoteInfo = stn;
-		};
 		557B1F7A1CC7BF730076B9EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 557B1F5C1CC7BF490076B9EE /* log-mac.xcodeproj */;
@@ -71,34 +43,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3170A026177887B0004F5DDA;
 			remoteInfo = comm;
-		};
-		557B1F861CC7BF730076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1F381CC7BF210076B9EE /* baseevent-mac.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3170A026177887B0004F5DDA;
-			remoteInfo = baseevent;
-		};
-		557B1F881CC7BF730076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1F321CC7BF1B0076B9EE /* app-mac.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3170A026177887B0004F5DDA;
-			remoteInfo = app;
-		};
-		557B20301CC7C6D20076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1FCA1CC7C5C40076B9EE /* sdt-mac.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55D9C0821CC7B1C90076CBD9;
-			remoteInfo = sdt;
-		};
-		557B20321CC7C6DC0076B9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 557B1FCA1CC7C5C40076B9EE /* sdt-mac.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3170A026177887B0004F5DDA;
-			remoteInfo = sdt;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -122,12 +66,9 @@
 		4BE038E51DE7ED1E0004CD84 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = DEVELOPER_DIR; };
 		4BE038E71DE7ED3A0004CD84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		4BE038E91DE7ED490004CD84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		557B1F321CC7BF1B0076B9EE /* app-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "app-mac.xcodeproj"; path = "app/app-mac.xcodeproj"; sourceTree = "<group>"; };
-		557B1F381CC7BF210076B9EE /* baseevent-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "baseevent-mac.xcodeproj"; path = "baseevent/baseevent-mac.xcodeproj"; sourceTree = "<group>"; };
+		4C663596206911F4005BB33B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		557B1F561CC7BF3E0076B9EE /* comm-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "comm-mac.xcodeproj"; path = "comm/comm-mac.xcodeproj"; sourceTree = "<group>"; };
 		557B1F5C1CC7BF490076B9EE /* log-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "log-mac.xcodeproj"; path = "log/log-mac.xcodeproj"; sourceTree = "<group>"; };
-		557B1F6E1CC7BF5A0076B9EE /* stn-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "stn-mac.xcodeproj"; path = "stn/stn-mac.xcodeproj"; sourceTree = "<group>"; };
-		557B1FCA1CC7C5C40076B9EE /* sdt-mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "sdt-mac.xcodeproj"; path = "sdt/sdt-mac.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,12 +91,8 @@
 		3170A01E177887B0004F5DDA = {
 			isa = PBXGroup;
 			children = (
-				557B1FCA1CC7C5C40076B9EE /* sdt-mac.xcodeproj */,
-				557B1F6E1CC7BF5A0076B9EE /* stn-mac.xcodeproj */,
 				557B1F5C1CC7BF490076B9EE /* log-mac.xcodeproj */,
 				557B1F561CC7BF3E0076B9EE /* comm-mac.xcodeproj */,
-				557B1F381CC7BF210076B9EE /* baseevent-mac.xcodeproj */,
-				557B1F321CC7BF1B0076B9EE /* app-mac.xcodeproj */,
 				4BE038DE1DE7ECA40004CD84 /* Frameworks */,
 				4BB7124F1DE811B100185734 /* libmars.a */,
 			);
@@ -164,6 +101,7 @@
 		4BE038DE1DE7ECA40004CD84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C663596206911F4005BB33B /* CoreTelephony.framework */,
 				4BE038E91DE7ED490004CD84 /* Foundation.framework */,
 				4BE038E71DE7ED3A0004CD84 /* SystemConfiguration.framework */,
 				4BE038E51DE7ED1E0004CD84 /* NetworkExtension.framework */,
@@ -172,22 +110,6 @@
 				4BE038DF1DE7ECA40004CD84 /* CoreWLAN.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		557B1F331CC7BF1B0076B9EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				557B1F371CC7BF1B0076B9EE /* libapp.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		557B1F391CC7BF210076B9EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				557B1F3D1CC7BF210076B9EE /* libbaseevent.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		557B1F571CC7BF3E0076B9EE /* Products */ = {
@@ -202,22 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				557B1F611CC7BF490076B9EE /* liblog.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		557B1F6F1CC7BF5A0076B9EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				557B1F731CC7BF5A0076B9EE /* libstn.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		557B202D1CC7C6D20076B9EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				557B20311CC7C6D20076B9EE /* libsdt.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,12 +143,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				557B20331CC7C6DC0076B9EE /* PBXTargetDependency */,
 				557B1F7D1CC7BF730076B9EE /* PBXTargetDependency */,
-				557B1F751CC7BF730076B9EE /* PBXTargetDependency */,
 				557B1F7B1CC7BF730076B9EE /* PBXTargetDependency */,
-				557B1F871CC7BF730076B9EE /* PBXTargetDependency */,
-				557B1F891CC7BF730076B9EE /* PBXTargetDependency */,
 			);
 			name = mars;
 			productName = PublicComponent;
@@ -270,28 +172,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 557B1F331CC7BF1B0076B9EE /* Products */;
-					ProjectRef = 557B1F321CC7BF1B0076B9EE /* app-mac.xcodeproj */;
-				},
-				{
-					ProductGroup = 557B1F391CC7BF210076B9EE /* Products */;
-					ProjectRef = 557B1F381CC7BF210076B9EE /* baseevent-mac.xcodeproj */;
-				},
-				{
 					ProductGroup = 557B1F571CC7BF3E0076B9EE /* Products */;
 					ProjectRef = 557B1F561CC7BF3E0076B9EE /* comm-mac.xcodeproj */;
 				},
 				{
 					ProductGroup = 557B1F5D1CC7BF490076B9EE /* Products */;
 					ProjectRef = 557B1F5C1CC7BF490076B9EE /* log-mac.xcodeproj */;
-				},
-				{
-					ProductGroup = 557B202D1CC7C6D20076B9EE /* Products */;
-					ProjectRef = 557B1FCA1CC7C5C40076B9EE /* sdt-mac.xcodeproj */;
-				},
-				{
-					ProductGroup = 557B1F6F1CC7BF5A0076B9EE /* Products */;
-					ProjectRef = 557B1F6E1CC7BF5A0076B9EE /* stn-mac.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -302,20 +188,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		557B1F371CC7BF1B0076B9EE /* libapp.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libapp.a;
-			remoteRef = 557B1F361CC7BF1B0076B9EE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		557B1F3D1CC7BF210076B9EE /* libbaseevent.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libbaseevent.a;
-			remoteRef = 557B1F3C1CC7BF210076B9EE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		557B1F5B1CC7BF3F0076B9EE /* libcomm.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -328,20 +200,6 @@
 			fileType = archive.ar;
 			path = liblog.a;
 			remoteRef = 557B1F601CC7BF490076B9EE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		557B1F731CC7BF5A0076B9EE /* libstn.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libstn.a;
-			remoteRef = 557B1F721CC7BF5A0076B9EE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		557B20311CC7C6D20076B9EE /* libsdt.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libsdt.a;
-			remoteRef = 557B20301CC7C6D20076B9EE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -373,11 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		557B1F751CC7BF730076B9EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = stn;
-			targetProxy = 557B1F741CC7BF730076B9EE /* PBXContainerItemProxy */;
-		};
 		557B1F7B1CC7BF730076B9EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = log;
@@ -387,21 +240,6 @@
 			isa = PBXTargetDependency;
 			name = comm;
 			targetProxy = 557B1F7C1CC7BF730076B9EE /* PBXContainerItemProxy */;
-		};
-		557B1F871CC7BF730076B9EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = baseevent;
-			targetProxy = 557B1F861CC7BF730076B9EE /* PBXContainerItemProxy */;
-		};
-		557B1F891CC7BF730076B9EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = app;
-			targetProxy = 557B1F881CC7BF730076B9EE /* PBXContainerItemProxy */;
-		};
-		557B20331CC7C6DC0076B9EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = sdt;
-			targetProxy = 557B20321CC7C6DC0076B9EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

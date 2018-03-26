@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3170A02B177887B0004F5DDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3170A02A177887B0004F5DDA /* Foundation.framework */; };
+		4C6635A22069121D005BB33B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6635A12069121D005BB33B /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,7 @@
 		1FD4FAAE1C999CC100125228 /* sdt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sdt.xcodeproj; path = sdt/sdt.xcodeproj; sourceTree = "<group>"; };
 		3170A027177887B0004F5DDA /* libmars-open-iphone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libmars-open-iphone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3170A02A177887B0004F5DDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C6635A12069121D005BB33B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		55A8D1C51C8D5D4C0057DD59 /* app.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = app.xcodeproj; path = app/app.xcodeproj; sourceTree = "<group>"; };
 		55A8D1CB1C8D5D540057DD59 /* baseevent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = baseevent.xcodeproj; path = baseevent/baseevent.xcodeproj; sourceTree = "<group>"; };
 		55AC98BE1C72FFE7007F9F97 /* openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openssl.xcodeproj; path = openssl/openssl.xcodeproj; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6635A22069121D005BB33B /* CoreTelephony.framework in Frameworks */,
 				3170A02B177887B0004F5DDA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +208,7 @@
 		3170A029177887B0004F5DDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C6635A12069121D005BB33B /* CoreTelephony.framework */,
 				3170A02A177887B0004F5DDA /* Foundation.framework */,
 			);
 			name = Frameworks;
